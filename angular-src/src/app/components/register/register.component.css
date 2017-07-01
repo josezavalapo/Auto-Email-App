@@ -1,0 +1,22 @@
+#page-header {
+	text-align: center;
+	
+}
+
+#register-btn {
+	margin-top: 60px;
+	margin-left: 500px;
+	padding: 10px;
+	height: 60px;
+	width: 120px;
+}
+
+#form-group {
+	font-size: 24px;
+	text-align: left;
+	font-weight: bold;
+}
+
+p {
+	font-size: 18px;
+}

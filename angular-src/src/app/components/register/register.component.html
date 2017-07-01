@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Conoce Ufind</title>
+</head>
+<body>
+	<img id="logo" [src]="fullImagePath + '/ufindlogo3jpg.jpg'" alt="UfindLogo"/>
+	<div id="page-header">
+		<h2>Solicíta más Información... Súbete a Ufind</h2>
+	</div>
+	<p>Hola, agradecemos tu interés, por favor llena este formulario, posteriormente recibirás correo electrónico con la información y un asesor se pondrá en contacto para resolverte cualquier duda sobre nuestros beneficios.
+	</p>
+	<form (submit)="onRegisterSubmit()">
+		<div id="form-group">
+			<label>Email</label>
+			<input type="text" [(ngModel)]="email" name="email" class="form-control">
+		</div>
+		<input id="register-btn" type="submit" class="btn btn-primary" value="Registrar">
+	</form>
+</body>
+</html>
